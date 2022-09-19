@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main () {
+int main() {
   
   int usuario; 
   printf("¿Cuál es tu peso en KG en la tierra?: ");
@@ -19,11 +19,9 @@ int main () {
 
   int pesoFinal; // Variable peso final del usuario
 
-  // Nombres de los planetas
-  char nombreMarte[] = "Marte";  
+  char nombreMarte[] = "Marte";
   char nombreJupiter[] = "Jupiter";
 
-  // Condicionales
   if (planeta == 1) {
     pesoFinal = peso * GRAVEDAD_MARTE / GRAVEDAD_TIERRA;
     printf("Tu peso en %s es igual a: %d KG.\n En %s pesas menos que en el planeta Tierra :)", nombreMarte, pesoFinal, nombreMarte);
